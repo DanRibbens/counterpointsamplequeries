@@ -1,3 +1,7 @@
+-- Some assumptions that you will need to modify.
+--  You have a budget table called CK_BUDGET
+--  You have a table that translates the date to your retail calendar dates
+
 declare @enddaytime datetime = @endday + ' 23:59:59'
 
 select   
